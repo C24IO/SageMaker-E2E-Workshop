@@ -47,3 +47,37 @@ HOME=/TERM=linuxPATH=/sbin:/bin:/usr/sbin:/usr/bin[root@ip-172-16-44-133 ~]#
 
 
 Anybucket role - reate just for confirmation and fun and make sure its work
+
+http://files.fast.ai/data/
+
+
+chzar:~/C/SageMaker/sagemaker-lhr-summit-demo (master) $ tree -d
+.
+├── configs
+├── container
+│   └── conv_net
+├── data
+│   └── dogscats
+│       ├── models
+│       ├── sample
+│       │   ├── train
+│       │   │   ├── cats
+│       │   │   └── dogs
+│       │   └── valid
+│       │       ├── cats
+│       │       └── dogs
+│       ├── test1
+│       ├── train
+│       │   ├── cats
+│       │   └── dogs
+│       └── valid
+│           ├── cats
+│           └── dogs
+└── local_test
+    └── test_dir
+        ├── input
+        │   └── config
+        ├── model
+        └── output
+
+

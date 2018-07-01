@@ -1,0 +1,3 @@
+[submodule "LukeFather/sagemaker-lhr-summit-demo"]
+	path = LukeFather/sagemaker-lhr-summit-demo
+	url = git@github.com:C24IO/sagemaker-lhr-summit-demo.git

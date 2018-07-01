@@ -10,8 +10,8 @@ cat > /home/ec2-user/fastai-setup.sh << EOF
 cd /home/ec2-user/SageMaker/fastai
 conda update -y -n base conda
 conda env update
-conda install boto3
 source activate fastai
+conda install -y boto3
 echo "Finished creating fast.ai conda environment"
 EOF
 
